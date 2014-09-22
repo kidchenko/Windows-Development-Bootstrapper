@@ -25,5 +25,8 @@ foreach ($program in $programs) { choco install $program }
  
 # ------------- PSGet Modules -------------
 
-# Posh Git
-Install-Module posh-git
+# Modules Definition
+$psModules = @("go", "posh-git")
+
+# Install Modules
+foreach ($module in $psModules) { Install-Module $module }
