@@ -5,6 +5,8 @@ An executable for setup a Windows development environment.
 
 ## Installation
 
+Clone this project to your machine your simply [download](https://github.com/lnmunhoz/Windows-Development-Bootstrapper/archive/master.zip). (Git is included)
+
 Open your **PowerShell as administrator** and run: `C:\path\to\project\.\bootstrap.ps1`.
 
 ## Global Packages
