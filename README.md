@@ -5,7 +5,7 @@ An executable for setup a Windows development environment.
 
 ## Instalation
 
-Open your PowerShell as administrator and run `C:\path\to\project\.\bootstrap.ps1`.
+Open your PowerShell as administrator and run: `C:\path\to\project\.\bootstrap.ps1`.
 
 ## Global Packages
 - [Chocolatey](https://chocolatey.org/)
