@@ -29,5 +29,8 @@ Open your PowerShell as administrator and run: `C:\path\to\project\.\bootstrap.p
 #### Basic Programs
 - [NotePad++](https://chocolatey.org/packages/notepadplusplus)
 
+### PSGet Modules Included
+- [Go-Shell](https://github.com/cameronharp/Go-Shell)
+- [posh-git](https://github.com/dahlbyk/posh-git/)
 
 More updates coming soon...
