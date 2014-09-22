@@ -11,24 +11,18 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 
 # ------------- Choco Packages -------------
 
-# Development
-choco install git 
-choco install autohotkey 
+# Packages Definition
+$tools =  @("git", "autohotkey")
+$browsers = @("Firefox", "GoogleChrome", "GoogleChrome.Canary")
+$editors = @("Atom", "SublimeText3")
+$programs = @("notepadplusplus")
 
-# Browsers
-choco install Firefox 
-choco install GoogleChrome 
-choco install GoogleChrome.Canary 
-
-# Editors
-choco install Atom 
-choco install SublimeText3 
-
-# Basic Programs
-choco install adobereader
-choco install notepadplusplus 
-
-
+# Install Packages
+foreach ($tool in $tools) { choco install $tool }
+foreach ($browser in $browsers) { choco install $browser }
+foreach ($editor in $editors) { choco install $editor }
+foreach ($program in $programs) { choco install $program }
+ 
 # ------------- PSGet Modules -------------
 
 # Posh Git
