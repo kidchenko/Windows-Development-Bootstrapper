@@ -30,4 +30,6 @@ choco install notepadplusplus
 
 
 # ------------- PSGet Modules -------------
+
+# Posh Git
 Install-Module posh-git
