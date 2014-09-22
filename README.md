@@ -9,11 +9,12 @@ Clone this project to your machine or simply [click here](https://github.com/lnm
 
 Open your **PowerShell as administrator** and run: `C:\path\to\project\.\bootstrap.ps1`.
 
-## Global Packages
+### Global Packages
 - [Chocolatey](https://chocolatey.org/)
 - [PSGet](http://psget.net/)
 
-### Choco Packages Included:
+### Choco Packages:
+The packages from chocolatey included.
 
 #### Tools
 - [Git](https://chocolatey.org/packages/git)
@@ -31,7 +32,9 @@ Open your **PowerShell as administrator** and run: `C:\path\to\project\.\bootstr
 #### Basic Programs
 - [NotePad++](https://chocolatey.org/packages/notepadplusplus)
 
-### PSGet Modules Included
+### PSGet Modules
+The PSGet modules included.
+
 - [Go-Shell](https://github.com/cameronharp/Go-Shell)
 - [posh-git](https://github.com/dahlbyk/posh-git/)
 
