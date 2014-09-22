@@ -3,15 +3,15 @@ Windows-Development-Bootstrapper
 
 An executable for setup a Windows development environment.
 
-## Instalation
+## Installation
 
-Open your PowerShell as administrator and run: `C:\path\to\project\.\bootstrap.ps1`.
+Open your **PowerShell as administrator** and run: `C:\path\to\project\.\bootstrap.ps1`.
 
 ## Global Packages
 - [Chocolatey](https://chocolatey.org/)
 - [PSGet](http://psget.net/)
 
-### Choco Packages Included
+### Choco Packages Included:
 
 #### Tools
 - [Git](https://chocolatey.org/packages/git)
