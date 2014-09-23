@@ -12,10 +12,10 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 # ------------- Choco Packages -------------
 
 # Packages Definition
-$tools =  @("git", "autohotkey")
+$tools =  @("git", "autohotkey", "f.lux", "powertab", "Listary")
 $browsers = @("Firefox", "GoogleChrome", "GoogleChrome.Canary")
-$editors = @("Atom", "SublimeText3")
-$programs = @("notepadplusplus")
+$editors = @("Atom", "SublimeText3", "markdownpad2")
+$programs = @("notepadplusplus", "dropbox")
 
 # Install Packages
 foreach ($tool in $tools) { choco install $tool }
